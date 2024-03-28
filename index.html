@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <title>Sapper</title>
+</head>
+<body class="page">
+  <h1 class="main-title">SAPPER GAME</h1>
+  <h3 class="lavel-title">ВЫБЕРЕТЕ СЛОЖНОСТЬ</h3>
+  <form>
+    <label for="lavel-game"></label>
+    <select name="lavel" id="select">
+      <option>сложность</option>
+      <option class="small" value="6">легко</option>
+      <option class="middle" value="10">сложно</option>
+      <option class="big" value="12">очень сложно</option>
+    </select>
+  </form>
+  <button class="btn">играть</button>
+<div id="elem"></div>
+<script type="module" src="./script.js" defer></script>
+</body>
+</html>
